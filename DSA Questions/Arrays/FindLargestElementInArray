@@ -1,0 +1,14 @@
+// brute appraoch 
+1. sort the array then return the last element from the array 
+4. time complexity O(nlogn + n) and space complexity O(1)
+// optimal approach
+int max= first elemnt ;
+if(arr.length>1){
+    invaliid array
+}
+for( int i=1;i<arr.length;i++){
+    if(arr[i>]max){
+        max= arr[i];
+    }
+    return max;
+}

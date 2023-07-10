@@ -1,0 +1,10 @@
+//brtue approach 
+1.Sort the array then return the last elwement from the array 
+time complexity O(nlogn)
+
+//best approach 
+1.intialize the max vriable to arr[0]
+2. ittrate from 1 to end of the array and compare with max 
+3. if max < arr[i] then put max = arr[i]
+4. return max
+ time complexity O(n)
